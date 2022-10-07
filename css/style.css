@@ -1,0 +1,38 @@
+.banner{
+	background-image: url(../images/img4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slider{
+	padding: 70px;
+	background-color: rgba(1, 1, 1, .7);
+	color: #ffffff;
+}
+.slider h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+.slider p{
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+.slider button{
+	margin-bottom: 100px;
+	padding: 5px 25px;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: .33s ease-in-out;
+}
+.slider button:hover{
+	background-color: #6464df;
+	color: #ffffff;
+}
+.custom_ind {
+    bottom: 40px;
+}
+.custom_ind [data-bs-target] {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}

@@ -1,0 +1,135 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.slider {
+	    padding: 45px;
+	}
+	.slider h1 {
+	    font-size: 22px;
+	}
+	.slider p {
+	    font-size: 14px;
+	}
+	.slider button {
+	    margin-bottom: 65px;
+	    padding: 3px 6px;
+	    font-size: 14px;	   
+	}
+	.custom_ind {
+	    bottom: 30px;
+	}
+	.custom_ind [data-bs-target] {
+	    width: 11px;
+	    height: 11px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.slider {
+	    padding: 55px;
+	}
+	.slider h1 {
+	    font-size: 25px;
+	}
+	.slider p {
+	    font-size: 14px;
+	}
+	.slider button {
+	    margin-bottom: 80px;
+	    padding: 5px 10px;
+	    font-size: 15px;	   
+	}
+	.custom_ind {
+	    bottom: 50px;
+	}
+	.custom_ind [data-bs-target] {
+	    width: 13px;
+	    height: 13px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.slider {
+	    padding: 60px;
+	}
+	.slider h1 {
+	    font-size: 24px;
+	}
+	.slider p {
+	    font-size: 14px;
+	}
+	.slider button {
+	    margin-bottom: 70px;
+	    padding: 5px 16px;
+	    font-size: 16px;
+	}
+	.custom_ind {
+	    bottom: 35px;
+	}
+	.custom_ind [data-bs-target] {
+	    width: 14px;
+	    height: 14px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.slider {
+	    padding: 70px;
+	}
+	.slider h1 {
+		margin-top: 0;
+	    font-size: 34px;
+	}
+	.slider p {
+	    font-size: 18px;
+	}
+	.slider button {
+	    margin-bottom: 110px;
+	    padding: 8px 24px;
+	    font-size: 18px;
+	    border-radius: 8px;
+	}
+	.custom_ind {
+	    bottom: 40px;
+	}
+	.custom_ind [data-bs-target] {
+	    margin: 0 6px;
+	    width: 20px;
+	    height: 20px;
+	}
+}
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	.slider {
+	    padding: 80px;
+	}
+	.slider h1 {
+		margin-top: 20px;
+	    margin-bottom: 40px;
+	    font-size: 38px;
+	}
+	.slider p {
+	    margin-bottom: 40px;
+	    font-size: 20px;
+	}
+	.slider button {
+	    margin-bottom: 120px;
+	    padding: 10px 30px;
+	    font-size: 20px;
+	    border-radius: 10px;
+	}
+	.custom_ind {
+	    bottom: 35px;
+	}
+	.custom_ind [data-bs-target] {
+	    margin: 0 10px;
+	    width: 26px;
+	    height: 26px;
+	}
+}
